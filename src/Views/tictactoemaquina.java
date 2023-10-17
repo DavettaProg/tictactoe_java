@@ -67,6 +67,8 @@ public class tictactoemaquina extends javax.swing.JFrame {
         jLabel48 = new javax.swing.JLabel();
         jLabel49 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
+        jMenu2 = new javax.swing.JMenu();
+        jMenuItem4 = new javax.swing.JMenuItem();
         jMenu1 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
         jMenuItem2 = new javax.swing.JMenuItem();
@@ -88,7 +90,6 @@ public class tictactoemaquina extends javax.swing.JFrame {
 
         jLabel37.setBackground(new java.awt.Color(102, 204, 255));
         jLabel37.setFont(new java.awt.Font("Stencil", 1, 36)); // NOI18N
-        jLabel37.setForeground(new java.awt.Color(0, 0, 0));
         jLabel37.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel37.setOpaque(true);
         jLabel37.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -99,7 +100,6 @@ public class tictactoemaquina extends javax.swing.JFrame {
 
         jLabel38.setBackground(new java.awt.Color(102, 204, 255));
         jLabel38.setFont(new java.awt.Font("Stencil", 1, 36)); // NOI18N
-        jLabel38.setForeground(new java.awt.Color(0, 0, 0));
         jLabel38.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel38.setOpaque(true);
         jLabel38.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -110,7 +110,6 @@ public class tictactoemaquina extends javax.swing.JFrame {
 
         jLabel39.setBackground(new java.awt.Color(102, 204, 255));
         jLabel39.setFont(new java.awt.Font("Stencil", 1, 36)); // NOI18N
-        jLabel39.setForeground(new java.awt.Color(0, 0, 0));
         jLabel39.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel39.setOpaque(true);
         jLabel39.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -121,7 +120,6 @@ public class tictactoemaquina extends javax.swing.JFrame {
 
         jLabel40.setBackground(new java.awt.Color(102, 204, 255));
         jLabel40.setFont(new java.awt.Font("Stencil", 1, 36)); // NOI18N
-        jLabel40.setForeground(new java.awt.Color(0, 0, 0));
         jLabel40.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel40.setOpaque(true);
         jLabel40.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -132,7 +130,6 @@ public class tictactoemaquina extends javax.swing.JFrame {
 
         jLabel41.setBackground(new java.awt.Color(102, 204, 255));
         jLabel41.setFont(new java.awt.Font("Stencil", 1, 36)); // NOI18N
-        jLabel41.setForeground(new java.awt.Color(0, 0, 0));
         jLabel41.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel41.setOpaque(true);
         jLabel41.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -143,7 +140,6 @@ public class tictactoemaquina extends javax.swing.JFrame {
 
         jLabel42.setBackground(new java.awt.Color(102, 204, 255));
         jLabel42.setFont(new java.awt.Font("Stencil", 1, 36)); // NOI18N
-        jLabel42.setForeground(new java.awt.Color(0, 0, 0));
         jLabel42.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel42.setOpaque(true);
         jLabel42.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -154,7 +150,6 @@ public class tictactoemaquina extends javax.swing.JFrame {
 
         jLabel43.setBackground(new java.awt.Color(102, 204, 255));
         jLabel43.setFont(new java.awt.Font("Stencil", 1, 36)); // NOI18N
-        jLabel43.setForeground(new java.awt.Color(0, 0, 0));
         jLabel43.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel43.setOpaque(true);
         jLabel43.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -165,7 +160,6 @@ public class tictactoemaquina extends javax.swing.JFrame {
 
         jLabel44.setBackground(new java.awt.Color(102, 204, 255));
         jLabel44.setFont(new java.awt.Font("Stencil", 1, 36)); // NOI18N
-        jLabel44.setForeground(new java.awt.Color(0, 0, 0));
         jLabel44.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel44.setOpaque(true);
         jLabel44.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -176,7 +170,6 @@ public class tictactoemaquina extends javax.swing.JFrame {
 
         jLabel45.setBackground(new java.awt.Color(102, 204, 255));
         jLabel45.setFont(new java.awt.Font("Stencil", 1, 36)); // NOI18N
-        jLabel45.setForeground(new java.awt.Color(0, 0, 0));
         jLabel45.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel45.setOpaque(true);
         jLabel45.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -229,20 +222,16 @@ public class tictactoemaquina extends javax.swing.JFrame {
         );
 
         lbturno.setFont(new java.awt.Font("Showcard Gothic", 0, 24)); // NOI18N
-        lbturno.setForeground(new java.awt.Color(0, 0, 0));
         lbturno.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbturno.setText("Turno de X!");
 
         lbpuntajeo.setFont(new java.awt.Font("Showcard Gothic", 0, 24)); // NOI18N
-        lbpuntajeo.setForeground(new java.awt.Color(0, 0, 0));
         lbpuntajeo.setText("0");
 
         lbpuntajex.setFont(new java.awt.Font("Showcard Gothic", 0, 24)); // NOI18N
-        lbpuntajex.setForeground(new java.awt.Color(0, 0, 0));
         lbpuntajex.setText("0");
 
         jLabel46.setFont(new java.awt.Font("Showcard Gothic", 0, 24)); // NOI18N
-        jLabel46.setForeground(new java.awt.Color(0, 0, 0));
         jLabel46.setText("O = ");
 
         lblDificultad.setBackground(new java.awt.Color(255, 255, 255));
@@ -251,11 +240,9 @@ public class tictactoemaquina extends javax.swing.JFrame {
         lblDificultad.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 
         jLabel48.setFont(new java.awt.Font("Showcard Gothic", 0, 24)); // NOI18N
-        jLabel48.setForeground(new java.awt.Color(0, 0, 0));
         jLabel48.setText("X =");
 
         jLabel49.setFont(new java.awt.Font("Showcard Gothic", 0, 24)); // NOI18N
-        jLabel49.setForeground(new java.awt.Color(0, 0, 0));
         jLabel49.setText("MARCADOR");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -302,12 +289,9 @@ public class tictactoemaquina extends javax.swing.JFrame {
                 .addComponent(lblDificultad, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(lbturno)
-                        .addGap(21, 21, 21))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel49, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 17, Short.MAX_VALUE)))
+                    .addComponent(lbturno)
+                    .addComponent(jLabel49, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 16, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -323,6 +307,18 @@ public class tictactoemaquina extends javax.swing.JFrame {
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addGap(33, 33, 33))
         );
+
+        jMenu2.setText("Modo de juego");
+
+        jMenuItem4.setText("JvsJ");
+        jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem4ActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jMenuItem4);
+
+        jMenuBar1.add(jMenu2);
 
         jMenu1.setText("Dificultad");
 
@@ -445,7 +441,17 @@ public class tictactoemaquina extends javax.swing.JFrame {
             dificultadActual = Dificultad.DIFICIL;
             lblDificultad.setText("Dificultad: Difícil");
     }//GEN-LAST:event_jMenuItem3ActionPerformed
+
+    private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
+         menuItemJugadorVsJugadorActionPerformed(evt);
+    }//GEN-LAST:event_jMenuItem4ActionPerformed
         
+    public void menuItemJugadorVsJugadorActionPerformed(java.awt.event.ActionEvent evt) {    
+        tictactoe tictactoe= new tictactoe();
+        tictactoe.setVisible(true);
+     this.dispose();
+}
+          
     public enum Dificultad {
     FACIL,INTERMEDIO,DIFICIL
     }
@@ -758,10 +764,12 @@ private boolean lineaVacia(int[] linea) {
     private javax.swing.JLabel jLabel48;
     private javax.swing.JLabel jLabel49;
     private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
+    private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JLabel lblDificultad;
