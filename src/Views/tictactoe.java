@@ -71,19 +71,16 @@ public class tictactoe extends javax.swing.JFrame {
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu2 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
-        jMenuItem2 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("3Raya");
 
         jPanel1.setBackground(new java.awt.Color(102, 204, 255));
-        jPanel1.setForeground(new java.awt.Color(0, 0, 0));
 
         jPanel2.setBackground(new java.awt.Color(0, 0, 0));
 
         jLabel1.setBackground(new java.awt.Color(102, 204, 255));
         jLabel1.setFont(new java.awt.Font("Stencil", 1, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setOpaque(true);
         jLabel1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -94,7 +91,6 @@ public class tictactoe extends javax.swing.JFrame {
 
         jLabel2.setBackground(new java.awt.Color(102, 204, 255));
         jLabel2.setFont(new java.awt.Font("Stencil", 1, 36)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setOpaque(true);
         jLabel2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -105,7 +101,6 @@ public class tictactoe extends javax.swing.JFrame {
 
         jLabel3.setBackground(new java.awt.Color(102, 204, 255));
         jLabel3.setFont(new java.awt.Font("Stencil", 1, 36)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setOpaque(true);
         jLabel3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -116,7 +111,6 @@ public class tictactoe extends javax.swing.JFrame {
 
         jLabel4.setBackground(new java.awt.Color(102, 204, 255));
         jLabel4.setFont(new java.awt.Font("Stencil", 1, 36)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setOpaque(true);
         jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -127,7 +121,6 @@ public class tictactoe extends javax.swing.JFrame {
 
         jLabel5.setBackground(new java.awt.Color(102, 204, 255));
         jLabel5.setFont(new java.awt.Font("Stencil", 1, 36)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel5.setOpaque(true);
         jLabel5.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -138,7 +131,6 @@ public class tictactoe extends javax.swing.JFrame {
 
         jLabel6.setBackground(new java.awt.Color(102, 204, 255));
         jLabel6.setFont(new java.awt.Font("Stencil", 1, 36)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setOpaque(true);
         jLabel6.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -149,7 +141,6 @@ public class tictactoe extends javax.swing.JFrame {
 
         jLabel7.setBackground(new java.awt.Color(102, 204, 255));
         jLabel7.setFont(new java.awt.Font("Stencil", 1, 36)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(0, 0, 0));
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel7.setOpaque(true);
         jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -160,7 +151,6 @@ public class tictactoe extends javax.swing.JFrame {
 
         jLabel8.setBackground(new java.awt.Color(102, 204, 255));
         jLabel8.setFont(new java.awt.Font("Stencil", 1, 36)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(0, 0, 0));
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel8.setOpaque(true);
         jLabel8.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -171,7 +161,6 @@ public class tictactoe extends javax.swing.JFrame {
 
         jLabel9.setBackground(new java.awt.Color(102, 204, 255));
         jLabel9.setFont(new java.awt.Font("Stencil", 1, 36)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(0, 0, 0));
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel9.setOpaque(true);
         jLabel9.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -232,19 +221,15 @@ public class tictactoe extends javax.swing.JFrame {
         });
 
         lbturno.setFont(new java.awt.Font("Showcard Gothic", 0, 24)); // NOI18N
-        lbturno.setForeground(new java.awt.Color(0, 0, 0));
         lbturno.setText("Turno de X!");
 
         lbpuntajeo.setFont(new java.awt.Font("Showcard Gothic", 0, 24)); // NOI18N
-        lbpuntajeo.setForeground(new java.awt.Color(0, 0, 0));
         lbpuntajeo.setText("0");
 
         lbpuntajex.setFont(new java.awt.Font("Showcard Gothic", 0, 24)); // NOI18N
-        lbpuntajex.setForeground(new java.awt.Color(0, 0, 0));
         lbpuntajex.setText("0");
 
         jLabel13.setFont(new java.awt.Font("Showcard Gothic", 0, 24)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(0, 0, 0));
         jLabel13.setText("O = ");
 
         jLabel14.setBackground(new java.awt.Color(255, 255, 255));
@@ -254,11 +239,9 @@ public class tictactoe extends javax.swing.JFrame {
         jLabel14.setText("jugador vs jugador");
 
         jLabel15.setFont(new java.awt.Font("Showcard Gothic", 0, 24)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(0, 0, 0));
         jLabel15.setText("X =");
 
         jLabel16.setFont(new java.awt.Font("Showcard Gothic", 0, 24)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(0, 0, 0));
         jLabel16.setText("MARCADOR");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -338,9 +321,6 @@ public class tictactoe extends javax.swing.JFrame {
             }
         });
         jMenu2.add(jMenuItem1);
-
-        jMenuItem2.setText("JvsJ Online");
-        jMenu2.add(jMenuItem2);
 
         jMenuBar1.add(jMenu2);
 
@@ -544,7 +524,6 @@ public class tictactoe extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
-    private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JLabel lbpuntajeo;
