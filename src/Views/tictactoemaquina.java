@@ -232,7 +232,7 @@ public class tictactoemaquina extends javax.swing.JFrame {
         lbpuntajex.setText("0");
 
         jLabel46.setFont(new java.awt.Font("Showcard Gothic", 0, 24)); // NOI18N
-        jLabel46.setText("O = ");
+        jLabel46.setText("O \"maquina\"= ");
 
         lblDificultad.setBackground(new java.awt.Color(255, 255, 255));
         lblDificultad.setFont(new java.awt.Font("Showcard Gothic", 0, 24)); // NOI18N
@@ -240,7 +240,7 @@ public class tictactoemaquina extends javax.swing.JFrame {
         lblDificultad.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 
         jLabel48.setFont(new java.awt.Font("Showcard Gothic", 0, 24)); // NOI18N
-        jLabel48.setText("X =");
+        jLabel48.setText("X \"Jugador\"=");
 
         jLabel49.setFont(new java.awt.Font("Showcard Gothic", 0, 24)); // NOI18N
         jLabel49.setText("MARCADOR");
@@ -259,7 +259,7 @@ public class tictactoemaquina extends javax.swing.JFrame {
                         .addGap(50, 50, 50)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(lbpuntajeo, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)
+                                .addComponent(lbpuntajeo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addGap(24, 24, 24))
                             .addComponent(lbpuntajex, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(205, 205, 205))
